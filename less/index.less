@@ -29,8 +29,10 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
-	line-height: 1;
+	line-height: 1; 
+	 
 }
 ol, ul {
 	list-style: none;
@@ -53,7 +55,61 @@ table {
     box-sizing: border-box;
 }
 
+p {
+	font-size: 1.5rem;
+}
 html, body {
-    height: 100%;
+	height: 100%;
+	font-size: 62.5%;
+	font-family: 'Open Sans', sans-serif;
+    
 }
 
+header {
+	border: 1px solid red;
+	display: flex;
+	justify-content: flex-end;
+	padding: 20x;
+	margin: auto;
+	width: 85%;
+
+	#nav {
+	font-size: 1.8rem;
+	justify-content: flex-end;
+
+	a {
+		text-decoration: none;
+		align-content: space-between;
+	}
+	} //this closes nav in header
+
+} //this closes the header
+
+.profile {
+
+	border: 1px solid black;
+	margin: auto;
+	width: 85%;
+	display: flex;
+
+
+	background-color: solid grey;
+
+	#alg {
+	   width: 100%;
+	   height: auto;
+	}
+
+} //this closes profile
+
+.text-content-top {
+	border: 1px solid green;
+	margin: auto;
+
+} // this closes out text content top 
+
+footer {
+	border: 1px solid blue;
+	text-align: center;
+	margin: auto;
+}//this section closes the footer
